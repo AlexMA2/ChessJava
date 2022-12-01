@@ -1,5 +1,8 @@
 package ui;
 
+import pieces.ChessGamePiece;
+import pieces.King;
+
 import java.util.ArrayList;
 import java.awt.Color;
 import javax.swing.JOptionPane;
@@ -19,8 +22,8 @@ public class ChessGameEngine{
     private boolean        firstClick;
     private int            currentPlayer;
     private ChessGameBoard board;
-    private King           king1;
-    private King           king2;
+    private King king1;
+    private King king2;
     // ----------------------------------------------------------
     /**
      * Create a new ChessGameEngine object. Accepts a fully-created

@@ -2,39 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe1fb754-5df9-4334-9122-f8355be05379" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ChessMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/BlackBishop.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/BlackKing.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/BlackKnight.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/BlackPawn.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/BlackQueen.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/BlackRook.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/WhiteBishop.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/WhiteKing.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/WhiteKnight.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/WhitePawn.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/WhiteQueen.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/WhiteRook.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/default-Black.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/default-Unassigned.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/default-White.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/foo.text" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pieces/Bishop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pieces/ChessGamePiece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pieces/King.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pieces/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pieces/Pawn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pieces/Queen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pieces/Rook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/BoardSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/ChessGameBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/ChessGameEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/ChessGameLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/ChessGraveyard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/ChessMenuBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/ChessPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/BlackBishop.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/pieces/chessImages/BlackBishop.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/BlackKing.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/pieces/chessImages/BlackKing.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/BlackKnight.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/pieces/chessImages/BlackKnight.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/BlackPawn.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/pieces/chessImages/BlackPawn.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/BlackQueen.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/pieces/chessImages/BlackQueen.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/BlackRook.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/pieces/chessImages/BlackRook.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/WhiteBishop.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/pieces/chessImages/WhiteBishop.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/WhiteKing.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/pieces/chessImages/WhiteKing.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/WhiteKnight.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/pieces/chessImages/WhiteKnight.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/WhitePawn.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/pieces/chessImages/WhitePawn.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/WhiteQueen.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/pieces/chessImages/WhiteQueen.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/WhiteRook.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/pieces/chessImages/WhiteRook.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/default-Black.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/pieces/chessImages/default-Black.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/default-Unassigned.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/pieces/chessImages/default-Unassigned.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/default-White.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/pieces/chessImages/default-White.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/foo.text" beforeDir="false" afterPath="$PROJECT_DIR$/src/pieces/chessImages/foo.text" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pieces/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pieces/Bishop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pieces/ChessGamePiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pieces/ChessGamePiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pieces/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pieces/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pieces/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pieces/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pieces/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pieces/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pieces/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pieces/Rook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/BoardSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/BoardSquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/ChessGameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ChessGameBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/ChessGameEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ChessGameEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/ChessGraveyard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ChessGraveyard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +61,20 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Alex\IdeaProjects\ChessJava\src\assets" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ChessMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChessMain" />
+      <module name="ChessJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ChessMain" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

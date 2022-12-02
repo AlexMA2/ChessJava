@@ -4,6 +4,11 @@
     <list default="true" id="fe1fb754-5df9-4334-9122-f8355be05379" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/src/ChessMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChessMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/ChessPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ChessPanel.java" afterDir="false" />
+>>>>>>> 9fdc8986440ebb895a373ce6ef3bf115200e39ab
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +30,11 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+<<<<<<< HEAD
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Alex/IdeaProjects/ChessJava&quot;
+=======
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alex/IdeaProjects/ChessJava/src/pieces&quot;
+>>>>>>> 9fdc8986440ebb895a373ce6ef3bf115200e39ab
   }
 }</component>
   <component name="RecentsManager">

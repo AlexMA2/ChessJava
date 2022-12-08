@@ -143,7 +143,7 @@ public class ChessGameBoard extends JPanel{
                 }
                 else
                 {
-                    chessCells[i][j].setBackground( Color.BLACK );
+                    chessCells[i][j].setBackground( new Color(199,112,59) );
                 }
                 if ( addAfterReset ){
                     chessCells[i][j].addMouseListener( listener );
@@ -203,7 +203,7 @@ public class ChessGameBoard extends JPanel{
                 }
                 else
                 {
-                    chessCells[i][j].setBackground( Color.BLACK );
+                    chessCells[i][j].setBackground( new Color(199,112,59));
                 }
                 chessCells[i][j].addMouseListener( listener );
                 this.add( chessCells[i][j] );
@@ -222,7 +222,7 @@ public class ChessGameBoard extends JPanel{
                 }
                 else
                 {
-                    chessCells[i][j].setBackground( Color.BLACK );
+                    chessCells[i][j].setBackground( new Color(199,112,59) );
                 }
             }
         }

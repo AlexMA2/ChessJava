@@ -36,8 +36,8 @@ public class ChessGameEngine{
         firstClick = true;
         currentPlayer = 1;
         this.board = board;
-        this.king1 = (King)board.getCell( 7, 3 ).getPieceOnSquare();
-        this.king2 = (King)board.getCell( 0, 3 ).getPieceOnSquare();
+        this.king1 = (King)board.getCell( 7, 4 ).getPieceOnSquare();
+        this.king2 = (King)board.getCell( 0, 4 ).getPieceOnSquare();
         ( (ChessPanel)board.getParent() ).getGameLog().clearLog();
         ( (ChessPanel)board.getParent() ).getGameLog().addToLog(
             "A new chess "

@@ -161,6 +161,7 @@ public class ChessGameBoard extends JPanel{
      */
     public void initializeBoard(){
         resetBoard( false );
+        //ChessGamePiece pieceToAdd = new Pawn( this, 1, 0, ChessGamePiece.BLACK );
         for ( int i = 0; i < chessCells.length; i++ ){
             for ( int j = 0; j < chessCells[0].length; j++ ){
                 ChessGamePiece pieceToAdd;
@@ -186,11 +187,12 @@ public class ChessGameBoard extends JPanel{
                         pieceToAdd = new Bishop( this, i, j, colNum );
                     }
                     else if ( j == 3 ){
-                        pieceToAdd = new King( this, i, j, colNum );
+                        pieceToAdd = new Queen( this, i, j, colNum );
                     }
                     else
                     {
-                        pieceToAdd = new Queen( this, i, j, colNum );
+
+                        pieceToAdd = new King( this, i, j, colNum );
                     }
                 }
                 else

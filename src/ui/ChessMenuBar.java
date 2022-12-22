@@ -18,20 +18,19 @@ public class ChessMenuBar
     /**
      * Create a new ChessMenuBar object.
      */
-    public ChessMenuBar(){
+    public ChessMenuBar() {
         String[] menuCategories = { "File", "Options", "Help" };
-        String[] menuItemLists =
-        { "New game/restart,Exit", "Toggle graveyard,Toggle game log",
-          "About" };
-        for ( int i = 0; i < menuCategories.length; i++ ){
-            JMenu currMenu = new JMenu( menuCategories[i] );
-            String[] currMenuItemList = menuItemLists[i].split( "," );
-            for ( int j = 0; j < currMenuItemList.length; j++ ){
-                JMenuItem currItem = new JMenuItem( currMenuItemList[j] );
-                currItem.addActionListener( new MenuListener() );
-                currMenu.add( currItem );
+        String[] menuItemLists = { "New game/restart,Exit", "Toggle graveyard,Toggle game log",
+                "About" };
+        for (int i = 0; i < menuCategories.length; i++) {
+            JMenu currMenu = new JMenu(menuCategories[i]);
+            String[] currMenuItemList = menuItemLists[i].split(",");
+            for (int j = 0; j < currMenuItemList.length; j++) {
+                JMenuItem currItem = new JMenuItem(currMenuItemList[j]);
+                currItem.addActionListener(new MenuListener());
+                currMenu.add(currItem);
             }
-            this.add( currMenu );
+            this.add(currMenu);
         }
     }
     /**
@@ -43,31 +42,25 @@ public class ChessMenuBar
      * @version 2010.11.17
      */
     private class MenuListener
-        implements ActionListener
-    {
+            implements ActionListener {
         /**
          * Takes an appropriate action based on which menu button is clicked
          *
          * @param event
-         *            the mouse event from the source
+         *              the mouse event from the source
          */
         @Override
-        public void actionPerformed( ActionEvent event ){
-            String buttonName = ( (JMenuItem)event.getSource() ).getText();
-            if ( buttonName.equals( "About" ) ){
+        public void actionPerformed(ActionEvent event) {
+            String buttonName = ((JMenuItem) event.getSource()).getText();
+            if (buttonName.equals("About")) {
                 aboutHandler();
-            }
-            else if ( buttonName.equals( "New game/restart" ) ){
+            } else if (buttonName.equals("New game/restart")) {
                 restartHandler();
-            }
-            else if ( buttonName.equals( "Toggle game log" ) ){
+            } else if (buttonName.equals("Toggle game log")) {
                 toggleGameLogHandler();
-            }
-            else if ( buttonName.equals( "Exit" ) ){
+            } else if (buttonName.equals("Exit")) {
                 exitHandler();
-            }
-            else
-            {
+            } else {
                 toggleGraveyardHandler();
             }
         }
@@ -76,11 +69,11 @@ public class ChessMenuBar
     /**
      * Takes an appropriate action if the about button is clicked.
      */
-    private void aboutHandler(){
+    private void aboutHandler() {
         JOptionPane.showMessageDialog(
-            this.getParent(),
-            "YetAnotherChessGame v1.0 by:\nBen Katz\nMyles David\n"
-                + "Danielle Bushrow\n\nFinal Project for CS2114 @ VT" );
+                this.getParent(),
+                "YetAnotherChessGame v1.0 by:\nBen Katz\nMyles David\n"
+                        + "Danielle Bushrow\n\nFinal Project for CS2114 @ VT");
     }
     /**
      * Takes an appropriate action if the restart button is clicked.

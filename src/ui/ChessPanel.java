@@ -11,14 +11,23 @@ import javax.swing.*;
  * @author Danielle Bushrow (dbushrow)
  * @version 2010.11.17
  */
-public class ChessPanel
-    extends JPanel{
+public class ChessPanel  extends JPanel{
     private ChessMenuBar    menuBar;
     private ChessGameBoard  gameBoard;
     private ChessGameLog    gameLog;
     private ChessGraveyard  playerOneGraveyard;
     private ChessGraveyard  playerTwoGraveyard;
     private ChessGameEngine gameEngine;
+
+    private static ChessPanel chessP;
+    //singleton
+    public static ChessPanel getInstance(){
+
+        if(chessP == null){
+            chessP = new ChessPanel();
+        }
+        return chessP;
+    }
     // ----------------------------------------------------------
     /**
      * Create a new ChessPanel object.
@@ -38,6 +47,7 @@ public class ChessPanel
         this.setPreferredSize( new Dimension( 800, 600 ) );
         gameEngine = new ChessGameEngine( gameBoard ); // start the game
     }
+
     // ----------------------------------------------------------
     /**
      * Gets the logger object for use in other classes.

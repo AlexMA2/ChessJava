@@ -20,15 +20,17 @@ public class ChessMenuBar
      */
     public ChessMenuBar() {
         String[] menuCategories = { "File", "Options", "Help" };
-        String[] menuItemLists = { "New game/restart,Exit", "Toggle graveyard,Toggle game log",
-                "About" };
-        for (int i = 0; i < menuCategories.length; i++) {
-            JMenu currMenu = new JMenu(menuCategories[i]);
-            String[] currMenuItemList = menuItemLists[i].split(",");
-            for (int j = 0; j < currMenuItemList.length; j++) {
-                JMenuItem currItem = new JMenuItem(currMenuItemList[j]);
-                currItem.addActionListener(new MenuListener());
-                currMenu.add(currItem);
+        String[] menuItemLists =
+        { "New game/restart,Exit", "Toggle graveyard,Toggle game log",
+          "About" };
+        MenuListener menuListener = new MenuListener();
+        for ( int i = 0; i < menuCategories.length; i++ ){
+            JMenu currMenu = new JMenu( menuCategories[i] );
+            String[] currMenuItemList = menuItemLists[i].split( "," );
+            for ( int j = 0; j < currMenuItemList.length; j++ ){
+                JMenuItem currItem = new JMenuItem( currMenuItemList[j] );
+                currItem.addActionListener(menuListener);
+                currMenu.add( currItem );
             }
             this.add(currMenu);
         }
@@ -93,9 +95,11 @@ public class ChessMenuBar
         while ( possibleFrame != null && !( possibleFrame instanceof JFrame ) ){
             possibleFrame = possibleFrame.getParent();
         }
-        JFrame frame = (JFrame)possibleFrame;
-        frame.setVisible( false );
-        frame.dispose();
+        if(possibleFrame !=null){
+            JFrame frame = (JFrame)possibleFrame;
+            frame.setVisible( false );
+            frame.dispose();
+        }
     }
     /**
      * Takes an appropriate action if the toggle graveyard button is clicked.
